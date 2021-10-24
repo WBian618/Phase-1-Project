@@ -2,15 +2,43 @@
     "meals": [
       {
         "id": 1,
-        "name": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
+        "name": "Crispy Chicken Teriyaki",
+        "image": "https://rasamalaysia.com/wp-content/uploads/2019/02/chicken-teriyaki4.jpg",
+        "link": "https://rasamalaysia.com/chicken-teriyaki",
+        "prep": "10 minutes",
+        "cook": "10 minutes"
       },
       {
         "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
+        "name": "Philly Cheesesteak",
+        "image": "https://natashaskitchen.com/wp-content/uploads/2019/09/Philly-CheeseSteak-4-728x1092.jpg",
+        "link": "https://natashaskitchen.com/philly-cheesesteak/",
+        "prep": "15 minutes",
+        "cook": "13 minutes"
+      },
+      {
+        "id": 3,
+        "name": "Salt and Pepper Pork Chops",
+        "image": "https://omnivorescookbook.com/wp-content/uploads/2020/07/200618_Salt-And-Pepper-Pork-Chop_3.jpg",
+        "link": "https://omnivorescookbook.com/salt-pepper-pork-chops/",
+        "prep": "20 minutes",
+        "cook": "10 minutes"
+      },
+      {
+        "id": 4,
+        "name": "Cantonese Steamed Fish",
+        "image": "https://thewoksoflife.com/wp-content/uploads/2020/12/cantonese-steamed-fish-14-650x432.jpg",
+        "link": "https://thewoksoflife.com/cantonese-steamed-fish/",
+        "prep": "5 minutes",
+        "cook": "15 minutes"
+      },
+      {
+        "id": 5,
+        "name": "Simple Vegetable Stir Fry",
+        "image": "https://yupitsvegan.com/wp-content/uploads/2018/06/choy-sum-stir-fry-1.jpg",
+        "link": "https://tasteasianfood.com/chinese-vegetables-stir-fry/",
+        "prep": "10 minutes",
+        "cook": "5 minutes"
       }
     ]
   }
