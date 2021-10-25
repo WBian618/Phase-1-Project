@@ -1,18 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM Loaded')
 
-    fetch('http://localhost:3000/chicken')
-    .then(resp => resp.json())
-    .then(data => data.forEach(mealsObj => {
-console.log(mealsObj)
-        let img = document.createElement('img')
-        img.className = "thumbnail"
-        img.src = mealsObj.image
-
-        const recipeMenu = document.querySelector('#recipe-display')
-
-        recipeMenu.append(img)
-
         img.addEventListener('click', () => {
             const mainImage = document.querySelector('.detail-image')
             const mainName = document.querySelector('#recipe-name')
@@ -36,10 +24,21 @@ console.log(mealsObj)
                 const vegButt = document.querySelector('#vegButt')
                 const allButt = document.querySelector('#allButt')
 
-                chickButt = recipeMenu('')
+                fetch('http://localhost:3000.chicken')
+                .then(resp => resp.json())
+                .then(data => data.forEach(chickenObj => {
+                    let img = document.createElement('img')
+                    img.className = 'thumbnail'
+                    img.src = chickenObj.image
+
+                    const recipeMenu = document.querySelector('#recipe-display')
+
+                    recipeMenu.append(img)
+                }))
+
             })
         })
-    }))
+    
 
     const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
