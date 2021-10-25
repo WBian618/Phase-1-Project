@@ -40,4 +40,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
             })
         })
     }))
+
+    const newRecipe = document.getElementById('new-recipe')
+    newRecipe.addEventListener('submit', (e) => {
+        e.preventDefault()
+        const newRecipeObject = {}
+        newRecipeObject.name = document.querySelector('#new-name').value 
+        newRecipeObject.image = document.querySelector('#new-image').value
+        newRecipeObject.prepTime = document.querySelector('#prepTime').value
+        newRecipeObject.cookingTime = document.querySelector('#cookingTime').value
+        newRecipeObject.recipeLink = document.querySelector('#recipeLink').value
+        console.log(newRecipeObject)
+
+        const recipeDisplay = document.querySelector('#recipe-display')
+        const newRecipeItem = document.createElement('img')
+        newRecipeItem.src = newRecipeObject.image
+        recipeDisplay.append(newRecipeItem)
+    })
 })
+
+
+    
