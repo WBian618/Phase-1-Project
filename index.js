@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     .then(data => data.forEach(mealsObj => {
 
         let img = document.createElement('img')
+        img.className = "thumbnail"
         img.src = mealsObj.image
 
         const recipeMenu = document.querySelector('#recipe-display')

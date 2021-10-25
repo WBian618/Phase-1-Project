@@ -58,3 +58,8 @@ body {
 .detail-image {
   max-width: 300px;
 }
+
+b {
+    background-color: aliceblue;
+}
+
