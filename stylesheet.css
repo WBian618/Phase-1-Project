@@ -40,16 +40,19 @@ body {
     overflow-x: auto;
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
-  }
+}
 
   #recipe-display img {
     flex: 0 1 auto;
     height: 150px;
     margin-right: 0.5rem;
     cursor: pointer;
-  }
+}
   
   #recipe-display img:last-child {
     margin-right: 0;
-  }
-  
+}
+
+.detail-image {
+  max-width: 300px;
+}
