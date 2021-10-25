@@ -1,5 +1,5 @@
 {
-    "meals": [
+"chicken": [
       {
         "id": 1,
         "name": "Crispy Chicken Teriyaki",
@@ -7,7 +7,11 @@
         "link": "https://rasamalaysia.com/chicken-teriyaki",
         "prep": "10 minutes",
         "cook": "10 minutes"
-      },
+      }
+      
+],
+    
+"beef": [
       {
         "id": 2,
         "name": "Philly Cheesesteak",
@@ -15,7 +19,10 @@
         "link": "https://natashaskitchen.com/philly-cheesesteak/",
         "prep": "15 minutes",
         "cook": "13 minutes"
-      },
+      }
+],
+
+"pork": [
       {
         "id": 3,
         "name": "Salt and Pepper Pork Chops",
@@ -23,7 +30,10 @@
         "link": "https://omnivorescookbook.com/salt-pepper-pork-chops/",
         "prep": "20 minutes",
         "cook": "10 minutes"
-      },
+      }
+],
+
+"seafood": [
       {
         "id": 4,
         "name": "Cantonese Steamed Fish",
@@ -31,8 +41,11 @@
         "link": "https://thewoksoflife.com/cantonese-steamed-fish/",
         "prep": "5 minutes",
         "cook": "15 minutes"
-      },
-      {
+      }
+],
+
+"vege": [
+    {
         "id": 5,
         "name": "Simple Vegetable Stir Fry",
         "image": "https://yupitsvegan.com/wp-content/uploads/2018/06/choy-sum-stir-fry-1.jpg",
@@ -79,5 +92,5 @@
         "prep": "10 minutes",
         "cook": "20 minutes"
       }
-    ]
-  }
+]
+}

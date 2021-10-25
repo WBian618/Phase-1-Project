@@ -1,11 +1,12 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM Loaded')
 
-    fetch('http://localhost:3000/meals')
+    fetch('http://localhost:3000/chicken')
     .then(resp => resp.json())
     .then(data => data.forEach(mealsObj => {
-
+console.log(mealsObj)
         let img = document.createElement('img')
+        img.className = "thumbnail"
         img.src = mealsObj.image
 
         const recipeMenu = document.querySelector('#recipe-display')
