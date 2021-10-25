@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     fetch('http://localhost:3000/meals')
     .then(resp => resp.json())
-    .then(data => data.forEach((mealsObj) => {
+    .then(data => data.forEach(mealsObj => {
 
         let img = document.createElement('img')
         img.src = mealsObj.image
@@ -19,12 +19,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const cookTime = document.querySelector('#cook-time')
             const recipeLink = document.querySelector('#recipe-link')
             
+            recipeLink.href = mealsObj.link
             recipeLink.innerText = mealsObj.link
             cookTime.innerText = mealsObj.cook
             prepTime.innerText = mealsObj.prep
             mainName.innerText = mealsObj.name
             mainImage.src = mealsObj.image
             mainImage.alt = mealsObj.name
+
+            button.addEventListener('click',() => {
+                const chickButt = document.querySelector('#chickenButt')
+                const beefButt = document.querySelector('#beefButt')
+                const porkButt = document.querySelector('#porkButt')
+                const seaButt = document.querySelector('#seaButt')
+                const vegButt = document.querySelector('#vegButt')
+                const allButt = document.querySelector('#allButt')
+
+                chickButt = recipeMenu('')
+            })
         })
     }))
 })

@@ -5,6 +5,8 @@
     list-style-type: none;
     text-align: center;
     padding: 10px;
+    text-shadow: rgb(253, 253, 253) 0px 0px 10px;
+    
 }
 
 ul li{
