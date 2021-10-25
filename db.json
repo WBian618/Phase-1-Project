@@ -1,5 +1,5 @@
 {
-    "meals": [
+"chicken": [
       {
         "id": 1,
         "name": "Crispy Chicken Teriyaki",
@@ -7,7 +7,11 @@
         "link": "https://rasamalaysia.com/chicken-teriyaki",
         "prep": "10 minutes",
         "cook": "10 minutes"
-      },
+      }
+      
+],
+    
+"beef": [
       {
         "id": 2,
         "name": "Philly Cheesesteak",
@@ -15,7 +19,10 @@
         "link": "https://natashaskitchen.com/philly-cheesesteak/",
         "prep": "15 minutes",
         "cook": "13 minutes"
-      },
+      }
+],
+
+"pork": [
       {
         "id": 3,
         "name": "Salt and Pepper Pork Chops",
@@ -23,7 +30,10 @@
         "link": "https://omnivorescookbook.com/salt-pepper-pork-chops/",
         "prep": "20 minutes",
         "cook": "10 minutes"
-      },
+      }
+],
+
+"seafood": [
       {
         "id": 4,
         "name": "Cantonese Steamed Fish",
@@ -31,14 +41,56 @@
         "link": "https://thewoksoflife.com/cantonese-steamed-fish/",
         "prep": "5 minutes",
         "cook": "15 minutes"
-      },
-      {
+      }
+],
+
+"vege": [
+    {
         "id": 5,
         "name": "Simple Vegetable Stir Fry",
         "image": "https://yupitsvegan.com/wp-content/uploads/2018/06/choy-sum-stir-fry-1.jpg",
         "link": "https://tasteasianfood.com/chinese-vegetables-stir-fry/",
         "prep": "10 minutes",
         "cook": "5 minutes"
+      },
+      {
+        "id": 6,
+        "name": "Chicken Parmesan",
+        "image": "https://cafedelites.com/wp-content/uploads/2018/04/Chicken-Parmigiana-IMAGE-2.jpg",
+        "link": "https://cafedelites.com/crispy-chicken-parmesan/",
+        "prep": "15 minutes",
+        "cook": "30 minutes"
+      },
+      {
+        "id": 7,
+        "name": "Honey Garlic Glazed Salmon",
+        "image": "https://www.thechunkychef.com/wp-content/uploads/2020/01/Honey-Garlic-Salmon-fork2-680x819.jpg",
+        "link": "https://www.thechunkychef.com/honey-garlic-glazed-salmon/",
+        "prep": "8 minutes",
+        "cook": "10 minutes"
+      },
+      {
+        "id": 8,
+        "name": "Tostada Carne (Ground Beef)",
+        "image": "https://keviniscooking.com/wp-content/uploads/2018/10/Ground-Beef-Tostadas4.jpg",
+        "link": "https://keviniscooking.com/ground-beef-tostadas/",
+        "prep": "15 minutes",
+        "cook": "50 minutes"
+      },
+      {
+        "id": 9,
+        "name": "BBQ Baked Pork Chops",
+        "image": "https://cafedelites.com/wp-content/uploads/2020/04/Bbq-Baked-Pork-Chops-IMAGE-5.jpg",
+        "link": "https://cafedelites.com/bbq-baked-pork-chops/",
+        "prep": "5 minutes",
+        "cook": "25 minutes"
+      }, {
+        "id": 10,
+        "name": "Tofu Stir-Fry with Peanut Sauce",
+        "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2019/tofu-stir-fry-with-broccoli-and-cabbage-12.jpg?w=1200&auto=compress%2Cformat&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599768589&s=c5e06a3d2e81aa2b7f1d04e7acd9a988",
+        "link": "https://themodernproper.com/tofu-stir-fry-with-peanut-sauce",
+        "prep": "10 minutes",
+        "cook": "20 minutes"
       }
-    ]
-  }
+]
+}
