@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         .then(data => data.forEach((chickObj) => {
             let chickImg = document.createElement('img')
             chickImg.src = chickObj.image
+            chickImg.classname = "thumbnail"
             const chickDisplay = document.querySelector('#recipe-display')
             chickDisplay.append(chickImg);
         
@@ -29,6 +30,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const link = document.querySelector('#recipe-link')
     link.innerText = chickObj.link
     link.href = chickObj.link
+
+    
     })
    
 }))   
