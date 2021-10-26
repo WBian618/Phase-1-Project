@@ -46,7 +46,16 @@
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191011-creamy-tuscan-chicken-delish-ehg-2521-1571259466.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=768:*",
       "link": "https://www.delish.com/cooking/recipe-ideas/a19636089/creamy-tuscan-chicken-recipe/",
       "prep": "5 minutes",
-      "cook": "35 minutes" 
+      "cook": "35 minutes"
+    },
+    {
+      "id": 0,
+      "name": "Juicy Oven-Baked Chicken Breast",
+      "image": "https://cafedelites.com/wp-content/uploads/2019/12/Best-Juicy-Baked-Chicken-Breast-IMAGE.jpg",
+      "link": "https://cafedelites.com/oven-baked-chicken-breast/",
+      "prep": "10 minutes",
+      "cook": "16 minutes"
+      
     },
     {
       "id": 1,
@@ -77,6 +86,14 @@
         "cook": "50 minutes"
       },
       {
+        "id": 0,
+        "name": "Pepper Steak Stir Fry",
+        "image": "https://www.dinneratthezoo.com/wp-content/uploads/2018/06/pepper-steak-3.jpg",
+        "link": "https://www.dinneratthezoo.com/pepper-steak-stir-fry/",
+        "prep": "10 minutes",
+        "cook": "20 minutes"
+      },
+      {
         "id": 64,
         "name": "Ground Beef Stuffed Peppers",
         "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/07/ground-beef-stuffed-peppers-5-683x1024.jpg.webp",
@@ -98,6 +115,22 @@
         "link": "https://thewoksoflife.com/mongolian-beef-recipe/",
         "prep": "1 hour 15 minutes",
         "cook": "10 minutes"
+      },
+      {
+<<<<<<< HEAD
+        "name": "Beef and Broccoli",
+        "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/beef-and-broccoli-10.jpg",
+        "link": "https://thewoksoflife.com/beef-with-broccoli-all-purpose-stir-fry-sauce/",
+        "prep": "35 minutes",
+        "cook": "15 minutes"
+=======
+        "id": 0,
+        "name": "One Pot Beef Stroganoff",
+        "image": "https://s23209.pcdn.co/wp-content/uploads/2019/04/One-Pot-Beef-StroganoffIMG_9055.jpg",
+        "link": "https://damndelicious.net/2019/04/08/one-pot-beef-stroganoff/",
+        "prep": "15 minutes",
+        "cook": "25 minutes"
+>>>>>>> e339d04aa1593a40ff17a0ac7df3c44508a3c577
       }
 
 ],
@@ -158,7 +191,23 @@
         "link": "https://www.chiselandfork.com/mongolian-pork/",
         "prep": "20 minutes",
         "cook": "10 minutes" 
-      } 
+      },
+      {
+        "id": 0,
+        "name": "Easy Honey Garlic Pork Chops",
+        "image": "https://cafedelites.com/wp-content/uploads/2018/05/Easy-Honey-Garlic-Pork-Chops-IMAGE-3-1365x2048.jpg",
+        "link": "https://cafedelites.com/easy-honey-garlic-pork-chops/",
+        "prep": "10 minutes",
+        "cook": "12 minutes"
+      },
+      {
+        "id": 0,
+        "name": "Garlic-Lemon Pork",
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd49%2Fflash-in-the-pan-garlic-lemon-pork-med108749-002b%2Fflash-in-the-pan-garlic-lemon-pork-med108749-002b_horiz.jpg%3Fitok%3Dzg5t8yEK",
+        "link": "https://www.marthastewart.com/925230/garlic-lemon-pork",
+        "prep": "25 minutes",
+        "cook": "25 minutes"
+      }
 ],
 
 "seafood": [
@@ -177,6 +226,22 @@
         "link": "https://www.thechunkychef.com/honey-garlic-glazed-salmon/",
         "prep": "8 minutes",
         "cook": "10 minutes"
+      },
+      {
+        "id": 0,
+        "name": "Seafood Boil",
+        "image": "https://www.dinneratthezoo.com/wp-content/uploads/2019/05/seafood-boil-5.jpg",
+        "link": "https://www.dinneratthezoo.com/seafood-boil-recipe/",
+        "prep": "10 minutes",
+        "cook": "20 minutes" 
+      },
+      {
+        "id": 0,
+        "name": "Seafood Cioppino",
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F658007.jpg&w=699&h=468&c=sc&poi=face&q=85",
+        "link": "https://www.allrecipes.com/recipe/16790/seafood-cioppino/",
+        "prep": "30 minutes",
+        "cook": "2 hours, 15 minutes"
       },
       {
         "id": 45,
@@ -227,6 +292,22 @@
         "link": "https://themodernproper.com/tofu-stir-fry-with-peanut-sauce",
         "prep": "10 minutes",
         "cook": "20 minutes"
+      },
+      {
+        "id": 0,
+        "name": "Fresh and Easy Veggie Spaghetti",
+        "image": "https://www.inspiredtaste.net/wp-content/uploads/2019/02/Vegetable-Spaghetti-Recipe-1200.jpg",
+        "link": "https://www.inspiredtaste.net/38662/veggie-spaghetti-recipe/",
+        "prep": "10 minutes",
+        "cook": "25 minutes"
+      },
+      {
+        "id": 0,
+        "name": "Vegitarian Chili",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/1600x1600/square-1520973187-vegetarian-chili-horizontal.jpg?resize=640:*",
+        "link": "https://www.delish.com/cooking/recipe-ideas/recipes/a58719/easy-vegetarian-chili-recipe/",
+        "prep": "10 minutes",
+        "cook": "1 hour"
       },
       {
         "id": 12,

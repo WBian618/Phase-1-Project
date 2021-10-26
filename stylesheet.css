@@ -25,16 +25,18 @@ body {
     background-position: center;
     background-attachment: fixed;
     margin: 0;
-           padding: 0;
-       }
-       .imgbox {
-           display: grid;
-           height: 100%;
-       }
-       .center-fit {
-           max-width: 100%;
-           max-height: 100vh;
-           margin: auto;
+    padding: 0;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 
 #recipe-display {
@@ -42,21 +44,22 @@ body {
     overflow-x: auto;
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
+    
 }
 
-  #recipe-display img {
+#recipe-display img {
     flex: 0 1 auto;
     height: 150px;
     margin-right: 0.5rem;
-    cursor: pointer;
+    cursor: pointer;    
 }
-  
-  #recipe-display img:last-child {
+
+#recipe-display img:last-child {
     margin-right: 0;
 }
 
 .detail-image {
-  max-width: 300px;
+    max-width: 300px;
 }
 
 b {
@@ -70,4 +73,4 @@ form {
     flex-direction: column;
     align-items: flex-start;
     float: left;
-  }
+}
