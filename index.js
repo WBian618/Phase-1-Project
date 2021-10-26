@@ -162,12 +162,6 @@ link.innerText = vegObj.link
 }))
 })
 
-// let clearButt = document.querySelector('#clearButt')
-// clearButt.addEventListener('click', () => {
-//     const display = document.querySelector('#recipe-display')
-//     display.innerText = ""
-// })
-
 const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
         e.preventDefault()
