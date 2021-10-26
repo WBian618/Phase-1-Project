@@ -1,45 +1,39 @@
+// let img = document.createElement('img')
+
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM Loaded')
-
-        img.addEventListener('click', () => {
-            const mainImage = document.querySelector('.detail-image')
-            const mainName = document.querySelector('#recipe-name')
-            const prepTime = document.querySelector('#prep-time')
-            const cookTime = document.querySelector('#cook-time')
-            const recipeLink = document.querySelector('#recipe-link')
-            
-            recipeLink.href = mealsObj.link
-            recipeLink.innerText = mealsObj.link
-            cookTime.innerText = mealsObj.cook
-            prepTime.innerText = mealsObj.prep
-            mainName.innerText = mealsObj.name
-            mainImage.src = mealsObj.image
-            mainImage.alt = mealsObj.name
-
-            button.addEventListener('click',() => {
-                const chickButt = document.querySelector('#chickenButt')
-                const beefButt = document.querySelector('#beefButt')
-                const porkButt = document.querySelector('#porkButt')
-                const seaButt = document.querySelector('#seaButt')
-                const vegButt = document.querySelector('#vegButt')
-                const allButt = document.querySelector('#allButt')
-
-                fetch('http://localhost:3000.chicken')
-                .then(resp => resp.json())
-                .then(data => data.forEach(chickenObj => {
-                    let img = document.createElement('img')
-                    img.className = 'thumbnail'
-                    img.src = chickenObj.image
-
-                    const recipeMenu = document.querySelector('#recipe-display')
-
-                    recipeMenu.append(img)
-                }))
-
-            })
-        })
+        let chickButt = document.querySelector('#chickenButt')
     
+        chickButt.addEventListener('click', () => {
+        fetch('http://localhost:3000/chicken')
+        .then(resp => resp.json())
+        .then(data => data.forEach((chickObj) => {
+            let chickImg = document.createElement('img')
+            chickImg.src = chickObj.image
+            
+            const chickDisplay = document.querySelector('#recipe-display')
+            chickDisplay.append(chickImg)
+            
+        
 
+        
+    chickImg.addEventListener('click', () => {
+        
+    const display = document.querySelector('.detail-image')
+    display.src = chickObj.image
+
+    const recipeName = document.querySelector("#recipe-name")
+    recipeName.innerText = chickObj.name
+    const prep = document.querySelector('#prep-time')
+    prep.innerText = chickObj.prep
+    const cook = document.querySelector('#cook-time')
+    cook.innerText = chickObj.cook
+    const link = document.querySelector('#recipe-link')
+    link.innerText = chickObj.link
+    })
+   
+}))   
+})
     const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
         e.preventDefault()
@@ -59,4 +53,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
 })
 
 
-    
