@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         let beefButt = document.querySelector('#beefButt')
         
         chickButt.addEventListener('click', () => {
-        fetch('http://localhost:3000/chicken')
+            const display = document.querySelector('#recipe-display')
+            display.innerText = ""
+            fetch('http://localhost:3000/chicken')
         .then(resp => resp.json())
         .then(data => data.forEach((chickObj) => {
             let chickImg = document.createElement('img')
@@ -31,6 +33,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 }))   
 })
     beefButt.addEventListener('click', () => {
+        const display = document.querySelector('#recipe-display')
+    display.innerText = ""
         fetch('http://localhost:3000/beef')
         .then(resp => resp.json())
         .then(data => data.forEach((beefObj) => {
@@ -57,9 +61,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let porkButt = document.querySelector('#porkButt')
 
     porkButt.addEventListener('click', () => {
-    fetch('http://localhost:3000/Pork')
+        const display = document.querySelector('#recipe-display')
+        display.innerText = ""
+        fetch('http://localhost:3000/Pork')
     .then(resp => resp.json())
     .then(data => data.forEach((porkObj) => {
+        
         let porkImg = document.createElement('img')
         porkImg.src = porkObj.image
 
@@ -89,6 +96,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 let seaButt = document.querySelector('#seaButt')
 
 seaButt.addEventListener('click', () => {
+    const display = document.querySelector('#recipe-display')
+    display.innerText = ""
     fetch('http://localhost:3000/seafood')
     .then(resp => resp.json())
     .then(data => data.forEach((seaObj) => {
@@ -121,14 +130,16 @@ link.innerText = seaObj.link
 let vegButt = document.querySelector('#vegButt')
 
 vegButt.addEventListener('click', () => {
+    const display = document.querySelector('#recipe-display')
+    display.innerText = ""
     fetch('http://localhost:3000/vege')
     .then(resp => resp.json())
     .then(data => data.forEach((vegObj) => {
         let vegImg = document.createElement('img')
         vegImg.src = vegObj.image
         
-        const seaDisplay = document.querySelector('#recipe-display')
-        seaDisplay.append(vegImg)
+        const vegDisplay = document.querySelector('#recipe-display')
+        vegDisplay.append(vegImg)
         
     
     
@@ -151,7 +162,11 @@ link.innerText = vegObj.link
 }))
 })
 
-
+// let clearButt = document.querySelector('#clearButt')
+// clearButt.addEventListener('click', () => {
+//     const display = document.querySelector('#recipe-display')
+//     display.innerText = ""
+// })
 
 const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
