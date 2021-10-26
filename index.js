@@ -71,5 +71,3 @@ const newRecipe = document.getElementById('new-recipe')
         recipeDisplay.append(newRecipeItem)
     })
 })
-
-
