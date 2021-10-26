@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Chicken Tikka Masala",
-      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fdelish-chicken-tikka-masala-jpg-1526059261.jpg&imgrefurl=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Fa20151723%2Feasy-chicken-tikka-masala-recipe%2F&tbnid=i8awJx1r8fDWeM&vet=12ahUKEwjb-qu0sejzAhVrrnIEHV6_Cr8QMygCegUIARCAAg..i&docid=jRmzvlcHJe9NTM&w=2500&h=1667&itg=1&q=tikka%20masala&client=firefox-b-1-d&ved=2ahUKEwjb-qu0sejzAhVrrnIEHV6_Cr8QMygCegUIARCAAg",
+      "image": "https://littlesunnykitchen.com/wp-content/uploads/Chicke-tikka-masala-2-7.jpg",
       "link": "https://tasty.co/recipe/homemade-chicken-tikka-masala",
       "prep": "20 minutes",
       "cook": "22 minutes"
@@ -61,11 +61,10 @@
         "cook": "50 minutes"
       },
       {
-        "id": 1,
-        "name": "Mongolian beef",
-        "image": "https://www.spoonforkbacon.com/wp-content/uploads/2019/10/Mongolian_Beef_Rice-800x1066.jpg",
-        "link": "https://www.spoonforkbacon.com/mongolian-beef-over-steamed-rice/",
-        "prep": "5 minutes",
+        "name": "Mongolian Beef",
+        "image": "https://thewoksoflife.com/wp-content/uploads/2015/06/mongolian-beef-13.jpg",
+        "link": "https://thewoksoflife.com/mongolian-beef-recipe/",
+        "prep": "1 hour 15 minutes",
         "cook": "10 minutes"
       }
 ],
@@ -86,6 +85,14 @@
         "link": "https://cafedelites.com/bbq-baked-pork-chops/",
         "prep": "5 minutes",
         "cook": "25 minutes"
+      },
+      {
+        "id": 1,
+        "name": "Char Siu Pork",
+        "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
+        "link": "https://madewithlau.com/recipes/char-siu-chinese-bbq-pork",
+        "prep": "20 minutes",
+        "cook": "50 minutes"
       },
       {
         "id": 8,
@@ -129,6 +136,13 @@
         "link": "https://www.delish.com/cooking/recipe-ideas/a22668142/seafood-pasta-recipe/",
         "prep": "5 minutes",
         "cook": "25 minutes" 
+      },
+      {
+        "name": "Shrimp Scampi with Linguini",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/04/1453931744-delish-shrimp-scampi.jpg",
+        "link": "https://www.foodnetwork.com/recipes/tyler-florence/shrimp-scampi-with-linguini-recipe-1942429",
+        "prep": "15 minutes",
+        "cook": "25 minutes"
       }
 ],
 
@@ -156,6 +170,13 @@
         "link": "https://www.acouplecooks.com/chipotle-black-bean-tortilla-soup-from-pretty-simple-cooking-video/",
         "prep": "20 minutes",
         "cook": "15 minutes" 
+      },
+      {
+        "name": "BBQ Tofu",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2021/06/BBQ-Tofu-003.jpg",
+        "link": "https://www.acouplecooks.com/bbq-tofu-recipe/",
+        "prep": "5 minutes",
+        "cook": "15 minutes"
       }
 ]
 }
