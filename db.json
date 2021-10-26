@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Chicken Tikka Masala",
-      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fdelish-chicken-tikka-masala-jpg-1526059261.jpg&imgrefurl=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Fa20151723%2Feasy-chicken-tikka-masala-recipe%2F&tbnid=i8awJx1r8fDWeM&vet=12ahUKEwjb-qu0sejzAhVrrnIEHV6_Cr8QMygCegUIARCAAg..i&docid=jRmzvlcHJe9NTM&w=2500&h=1667&itg=1&q=tikka%20masala&client=firefox-b-1-d&ved=2ahUKEwjb-qu0sejzAhVrrnIEHV6_Cr8QMygCegUIARCAAg",
+      "image": "https://littlesunnykitchen.com/wp-content/uploads/Chicke-tikka-masala-2-7.jpg",
       "link": "https://tasty.co/recipe/homemade-chicken-tikka-masala",
       "prep": "20 minutes",
       "cook": "22 minutes"
@@ -39,6 +39,22 @@
       "link": "https://themodernproper.com/homemade-chicken-taquitos",
       "prep": "20 minutes",
       "cook": "10 minutes"
+    },
+    {
+      "id": 1,
+      "name": "Creamy Tuscan Chicken",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191011-creamy-tuscan-chicken-delish-ehg-2521-1571259466.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=768:*",
+      "link": "https://www.delish.com/cooking/recipe-ideas/a19636089/creamy-tuscan-chicken-recipe/",
+      "prep": "5 minutes",
+      "cook": "35 minutes" 
+    },
+    {
+      "id": 1,
+      "name": "Garlic Butter Chicken",
+      "image": "https://www.averiecooks.com/wp-content/uploads/2021/01/garlicbutterchicken-5-480x480.jpg",
+      "link": "https://www.averiecooks.com/garlic-butter-chicken/",
+      "prep": "5 minutes",
+      "cook": "15 minutes"
     }
       
 ],
@@ -75,6 +91,13 @@
         "link": "https://www.aheadofthyme.com/slow-cooker-beef-chili/",
         "prep": "10 minutes",
         "cook": "4 hours"
+      },
+      {
+        "name": "Mongolian Beef",
+        "image": "https://thewoksoflife.com/wp-content/uploads/2015/06/mongolian-beef-13.jpg",
+        "link": "https://thewoksoflife.com/mongolian-beef-recipe/",
+        "prep": "1 hour 15 minutes",
+        "cook": "10 minutes"
       }
 
 ],
@@ -111,7 +134,31 @@
         "link": "https://www.thepioneerwoman.com/food-cooking/recipes/a32381321/pork-marsala-with-mushrooms-recipe/",
         "prep": "10 minutes",
         "cook": "20 minutes"
-      }  
+      },
+      {  
+        "id": 1,
+        "name": "Char Siu Pork",
+        "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
+        "link": "https://madewithlau.com/recipes/char-siu-chinese-bbq-pork",
+        "prep": "20 minutes",
+        "cook": "50 minutes"
+      },
+      {
+        "id": 8,
+        "name": "Garlic Ginger Glazed Sticky Pork",
+        "image": "https://www.foodiewithfamily.com/wp-content/uploads/2015/07/Easy-Garlic-Ginger-Sticky-Glazed-Pork-4-600x900.jpg",
+        "link": "https://www.foodiewithfamily.com/easy-garlic-ginger-glazed-sticky-pork/",
+        "prep": "15 minutes",
+        "cook": "10 minutes"
+      },
+      {
+        "id": 9,
+        "name": "Mongolian Pork",
+        "image": "https://www.chiselandfork.com/wp-content/uploads/2021/05/mongolian-pork-4.jpg",
+        "link": "https://www.chiselandfork.com/mongolian-pork/",
+        "prep": "20 minutes",
+        "cook": "10 minutes" 
+      } 
 ],
 
 "seafood": [
@@ -146,6 +193,21 @@
         "link": "https://www.tasteofhome.com/recipes/blackened-catfish-with-mango-avocado-salsa/",
         "prep": "20 minutes",
         "cook": "10 minutes"
+      },
+      {
+        "id": 1,
+        "name": "Seafood Spaghetti",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-seafood-spaghetti-3new-1534500370.jpg?crop=1xw:1xh;center,top&resize=768:*",
+        "link": "https://www.delish.com/cooking/recipe-ideas/a22668142/seafood-pasta-recipe/",
+        "prep": "5 minutes",
+        "cook": "25 minutes" 
+      },
+      {
+        "name": "Shrimp Scampi with Linguini",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/04/1453931744-delish-shrimp-scampi.jpg",
+        "link": "https://www.foodnetwork.com/recipes/tyler-florence/shrimp-scampi-with-linguini-recipe-1942429",
+        "prep": "15 minutes",
+        "cook": "25 minutes"
       }
 ],
 
@@ -181,6 +243,21 @@
         "link": "https://www.loveandlemons.com/chipotle-cauliflower-nachos/",
         "prep": "10 minutes",
         "cook": "8 minutes"
+      },
+      {
+        "id": 1,
+        "name": "Vegetarian Tortilla Soup",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2018/02/Chipotle-Black-Bean-Tortilla-Soup.jpg",
+        "link": "https://www.acouplecooks.com/chipotle-black-bean-tortilla-soup-from-pretty-simple-cooking-video/",
+        "prep": "20 minutes",
+        "cook": "15 minutes" 
+      },
+      {
+        "name": "BBQ Tofu",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2021/06/BBQ-Tofu-003.jpg",
+        "link": "https://www.acouplecooks.com/bbq-tofu-recipe/",
+        "prep": "5 minutes",
+        "cook": "15 minutes"
       }
 ]
 }
