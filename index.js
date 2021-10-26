@@ -86,6 +86,73 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }))
 })
 
+let seaButt = document.querySelector('#seaButt')
+
+seaButt.addEventListener('click', () => {
+    fetch('http://localhost:3000/seafood')
+    .then(resp => resp.json())
+    .then(data => data.forEach((seaObj) => {
+        let seaImg = document.createElement('img')
+        seaImg.src = seaObj.image
+        
+        const seaDisplay = document.querySelector('#recipe-display')
+        seaDisplay.append(seaImg)
+        
+    
+
+    
+seaImg.addEventListener('click', () => {
+    
+const display = document.querySelector('.detail-image')
+display.src = seaObj.image
+
+const recipeName = document.querySelector("#recipe-name")
+recipeName.innerText = seaObj.name
+const prep = document.querySelector('#prep-time')
+prep.innerText = seaObj.prep
+const cook = document.querySelector('#cook-time')
+cook.innerText = seaObj.cook
+const link = document.querySelector('#recipe-link')
+link.innerText = seaObj.link
+})
+}))
+})
+
+let vegButt = document.querySelector('#vegButt')
+
+vegButt.addEventListener('click', () => {
+    fetch('http://localhost:3000/vege')
+    .then(resp => resp.json())
+    .then(data => data.forEach((vegObj) => {
+        let vegImg = document.createElement('img')
+        vegImg.src = vegObj.image
+        
+        const seaDisplay = document.querySelector('#recipe-display')
+        seaDisplay.append(vegImg)
+        
+    
+    
+
+    
+vegImg.addEventListener('click', () => {
+    
+const display = document.querySelector('.detail-image')
+display.src = vegObj.image
+
+const recipeName = document.querySelector("#recipe-name")
+recipeName.innerText = vegObj.name
+const prep = document.querySelector('#prep-time')
+prep.innerText = vegObj.prep
+const cook = document.querySelector('#cook-time')
+cook.innerText = vegObj.cook
+const link = document.querySelector('#recipe-link')
+link.innerText = vegObj.link
+})
+}))
+})
+
+
+
 const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
         e.preventDefault()
