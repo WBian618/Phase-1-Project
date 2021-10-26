@@ -117,20 +117,19 @@
         "cook": "10 minutes"
       },
       {
-<<<<<<< HEAD
         "name": "Beef and Broccoli",
         "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/beef-and-broccoli-10.jpg",
         "link": "https://thewoksoflife.com/beef-with-broccoli-all-purpose-stir-fry-sauce/",
         "prep": "35 minutes",
         "cook": "15 minutes"
-=======
+      },
+      {
         "id": 0,
         "name": "One Pot Beef Stroganoff",
         "image": "https://s23209.pcdn.co/wp-content/uploads/2019/04/One-Pot-Beef-StroganoffIMG_9055.jpg",
         "link": "https://damndelicious.net/2019/04/08/one-pot-beef-stroganoff/",
         "prep": "15 minutes",
         "cook": "25 minutes"
->>>>>>> e339d04aa1593a40ff17a0ac7df3c44508a3c577
       }
 
 ],
