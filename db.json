@@ -23,6 +23,22 @@
       "link": "https://tasty.co/recipe/homemade-chicken-tikka-masala",
       "prep": "20 minutes",
       "cook": "22 minutes"
+    },
+    {
+      "id": 1,
+      "name": "Creamy Tuscan Chicken",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191011-creamy-tuscan-chicken-delish-ehg-2521-1571259466.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=768:*",
+      "link": "https://www.delish.com/cooking/recipe-ideas/a19636089/creamy-tuscan-chicken-recipe/",
+      "prep": "5 minutes",
+      "cook": "35 minutes" 
+    },
+    {
+      "id": 1,
+      "name": "Garlic Butter Chicken",
+      "image": "https://www.averiecooks.com/wp-content/uploads/2021/01/garlicbutterchicken-5-480x480.jpg",
+      "link": "https://www.averiecooks.com/garlic-butter-chicken/",
+      "prep": "5 minutes",
+      "cook": "15 minutes"
     }
       
 ],
@@ -43,6 +59,14 @@
         "link": "https://keviniscooking.com/ground-beef-tostadas/",
         "prep": "15 minutes",
         "cook": "50 minutes"
+      },
+      {
+        "id": 1,
+        "name": "Mongolian beef",
+        "image": "https://www.spoonforkbacon.com/wp-content/uploads/2019/10/Mongolian_Beef_Rice-800x1066.jpg",
+        "link": "https://www.spoonforkbacon.com/mongolian-beef-over-steamed-rice/",
+        "prep": "5 minutes",
+        "cook": "10 minutes"
       }
 ],
 
@@ -97,6 +121,14 @@
         "link": "https://www.thechunkychef.com/honey-garlic-glazed-salmon/",
         "prep": "8 minutes",
         "cook": "10 minutes"
+      },
+      {
+        "id": 1,
+        "name": "Seafood Spaghetti",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-seafood-spaghetti-3new-1534500370.jpg?crop=1xw:1xh;center,top&resize=768:*",
+        "link": "https://www.delish.com/cooking/recipe-ideas/a22668142/seafood-pasta-recipe/",
+        "prep": "5 minutes",
+        "cook": "25 minutes" 
       }
 ],
 
@@ -116,6 +148,14 @@
         "link": "https://themodernproper.com/tofu-stir-fry-with-peanut-sauce",
         "prep": "10 minutes",
         "cook": "20 minutes"
+      },
+      {
+        "id": 1,
+        "name": "Vegetarian Tortilla Soup",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2018/02/Chipotle-Black-Bean-Tortilla-Soup.jpg",
+        "link": "https://www.acouplecooks.com/chipotle-black-bean-tortilla-soup-from-pretty-simple-cooking-video/",
+        "prep": "20 minutes",
+        "cook": "15 minutes" 
       }
 ]
 }
