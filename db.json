@@ -25,6 +25,22 @@
       "cook": "22 minutes"
     },
     {
+      "id": 42,
+      "name": "Thai Fried Rice with Basil",
+      "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Fried-Rice-16.jpg?w=667&auto=compress%2Cformat&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599768768&s=c23a5e211ad4bb3b3457c07685f36962",
+      "link": "https://themodernproper.com/thai-fried-rice-with-basil",
+      "prep": "20 minutes",
+      "cook": "22 minutes"
+    },
+    {
+      "id": 49,
+      "name": "Homemade Chicken Taquitos",
+      "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2019/homemade-chicken-taquitos-9.jpg?w=1200&auto=compress%2Cformat&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599767638&s=cea0d54f15e4935fdbd29fb922987935",
+      "link": "https://themodernproper.com/homemade-chicken-taquitos",
+      "prep": "20 minutes",
+      "cook": "10 minutes"
+    },
+    {
       "id": 1,
       "name": "Creamy Tuscan Chicken",
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191011-creamy-tuscan-chicken-delish-ehg-2521-1571259466.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=768:*",
@@ -61,6 +77,22 @@
         "cook": "50 minutes"
       },
       {
+        "id": 64,
+        "name": "Ground Beef Stuffed Peppers",
+        "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/07/ground-beef-stuffed-peppers-5-683x1024.jpg.webp",
+        "link": "https://www.aheadofthyme.com/ground-beef-stuffed-peppers/",
+        "prep": "20 minutes",
+        "cook": "45 minutes"
+      },
+      {
+        "id": 32,
+        "name": "Slow Cooker Beef Chili",
+        "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/02/slow-cooker-beef-chili-3-683x1024.jpg.webp",
+        "link": "https://www.aheadofthyme.com/slow-cooker-beef-chili/",
+        "prep": "10 minutes",
+        "cook": "4 hours"
+      },
+      {
         "name": "Mongolian Beef",
         "image": "https://thewoksoflife.com/wp-content/uploads/2015/06/mongolian-beef-13.jpg",
         "link": "https://thewoksoflife.com/mongolian-beef-recipe/",
@@ -74,6 +106,7 @@
         "prep": "35 minutes",
         "cook": "15 minutes"
       }
+
 ],
 
 "pork": [
@@ -94,6 +127,22 @@
         "cook": "25 minutes"
       },
       {
+        "id": 77,
+        "name": "Spicy Dr. Pepper Shredded Pork",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spicy-dr-pepper-shredded-pork-1591126298.jpg?crop=0.755xw:0.756xh;0.00680xw,0&resize=980:*",
+        "link": "https://www.thepioneerwoman.com/food-cooking/recipes/a11385/spicy-dr-pepper-shredded-pork/",
+        "prep": "5 minutes",
+        "cook": "6 hours"
+      },
+      {
+        "id": 72,
+        "name": "Pork Marsala with Mushrooms",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pork-marsala-with-mushrooms-1588712621.jpg?crop=0.534xw:1.00xh;0.270xw,0&resize=980:*",
+        "link": "https://www.thepioneerwoman.com/food-cooking/recipes/a32381321/pork-marsala-with-mushrooms-recipe/",
+        "prep": "10 minutes",
+        "cook": "20 minutes"
+      },
+      {  
         "id": 1,
         "name": "Char Siu Pork",
         "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
@@ -137,6 +186,22 @@
         "cook": "10 minutes"
       },
       {
+        "id": 45,
+        "name": "Baked Fish with Lemon Garlic Butter",
+        "image": "https://www.theendlessmeal.com/wp-content/uploads/2020/12/Baked-Fish-7-scaled.jpg",
+        "link": "https://www.theendlessmeal.com/baked-fish/",
+        "prep": "10 minutes",
+        "cook": "10 minutes"
+      },
+      {
+        "id": 55,
+        "name": "Blackened Catfish with Mango Avocado Salsa",
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Blackened-Catfish-with-Mango-Avocado-Salsa_EXPS_CIMZ17_121843_B07_18_5b-9.jpg?fit=700,1024",
+        "link": "https://www.tasteofhome.com/recipes/blackened-catfish-with-mango-avocado-salsa/",
+        "prep": "20 minutes",
+        "cook": "10 minutes"
+      },
+      {
         "id": 1,
         "name": "Seafood Spaghetti",
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-seafood-spaghetti-3new-1534500370.jpg?crop=1xw:1xh;center,top&resize=768:*",
@@ -169,6 +234,22 @@
         "link": "https://themodernproper.com/tofu-stir-fry-with-peanut-sauce",
         "prep": "10 minutes",
         "cook": "20 minutes"
+      },
+      {
+        "id": 12,
+        "name": "Butternut Squash Stuffed Shells",
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2015/11/IMG_2015_11_14_06673-2.jpg",
+        "link": "https://www.loveandlemons.com/squash-stuffed-shells/",
+        "prep": "20 minutes",
+        "cook": "35 minutes"
+      },
+      {
+        "id": 13,
+        "name": "Chipotle Cauliflower Nachos",
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2018/06/IMG_12301.jpg",
+        "link": "https://www.loveandlemons.com/chipotle-cauliflower-nachos/",
+        "prep": "10 minutes",
+        "cook": "8 minutes"
       },
       {
         "id": 1,
