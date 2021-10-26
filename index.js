@@ -34,6 +34,40 @@ document.addEventListener('DOMContentLoaded', (event) => {
    
 }))   
 })
+
+    let porkButt = document.querySelector('#porkButt')
+        
+    porkButt.addEventListener('click', () => {
+    fetch('http://localhost:3000/Pork')
+    .then(resp => resp.json())
+    .then(data => data.forEach((porkObj) => {
+        let porkImg = document.createElement('img')
+        porkImg.src = porkObj.image
+        
+        const porkDisplay = document.querySelector('#recipe-display')
+        porkDisplay.append(porkImg)
+        
+
+
+
+    porkImg.addEventListener('click', () => {
+
+    const display = document.querySelector('.detail-image')
+    display.src = porkObj.image
+
+    const recipeName = document.querySelector("#recipe-name")
+    recipeName.innerText = porkObj.name
+    const prep = document.querySelector('#prep-time')
+    prep.innerText = porkObj.prep
+    const cook = document.querySelector('#cook-time')
+    cook.innerText = porkObj.cook
+    const link = document.querySelector('#recipe-link')
+    link.innerText = porkObj.link
+    })
+    }))
+})
+
+
     const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
         e.preventDefault()
@@ -51,5 +85,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         recipeDisplay.append(newRecipeItem)
     })
 })
-
-
