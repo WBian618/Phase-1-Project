@@ -71,7 +71,23 @@ form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-     float: left;
+    float: left;
     background-color: rgb(255, 122, 89);
 }
 
+.thumbnail{
+    width: 120px;
+    height: 150px;
+    display:block;
+    z-index:999;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    border: solid white;
+    padding: 10px 10px 10px
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
