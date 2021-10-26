@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     cook.innerText = chickObj.cook
     const link = document.querySelector('#recipe-link')
     link.innerText = chickObj.link
+    link.href = chickObj.link
     })
    
 }))   
@@ -54,6 +55,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     cook.innerText = beefObj.cook
     const link = document.querySelector('#recipe-link')
     link.innerText = beefObj.link
+    link.href = beefObj.link
     })
         }))
     })
@@ -89,6 +91,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     cook.innerText = porkObj.cook
     const link = document.querySelector('#recipe-link')
     link.innerText = porkObj.link
+    link.href = porkObj.link
     })
     }))
 })
@@ -123,6 +126,7 @@ const cook = document.querySelector('#cook-time')
 cook.innerText = seaObj.cook
 const link = document.querySelector('#recipe-link')
 link.innerText = seaObj.link
+link.href = seaObj.link
 })
 }))
 })
@@ -158,6 +162,7 @@ const cook = document.querySelector('#cook-time')
 cook.innerText = vegObj.cook
 const link = document.querySelector('#recipe-link')
 link.innerText = vegObj.link
+link.href = vegObj.link
 })
 }))
 })
