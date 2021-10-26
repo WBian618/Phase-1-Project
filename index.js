@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             beefDisplay.append(beefImg)
 
     beefImg.addEventListener('click', () => {
-        const display = document.querySelector('.detail-image')
+    const display = document.querySelector('.detail-image')
     display.src = beefObj.image
     const recipeName = document.querySelector("#recipe-name")
     recipeName.innerText = beefObj.name

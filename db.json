@@ -25,7 +25,7 @@
       "cook": "22 minutes"
     },
     {
-      "id": 42,
+      "id": 4,
       "name": "Thai Fried Rice with Basil",
       "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Fried-Rice-16.jpg?w=667&auto=compress%2Cformat&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599768768&s=c23a5e211ad4bb3b3457c07685f36962",
       "link": "https://themodernproper.com/thai-fried-rice-with-basil",
@@ -33,7 +33,7 @@
       "cook": "22 minutes"
     },
     {
-      "id": 49,
+      "id": 5,
       "name": "Homemade Chicken Taquitos",
       "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2019/homemade-chicken-taquitos-9.jpg?w=1200&auto=compress%2Cformat&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599767638&s=cea0d54f15e4935fdbd29fb922987935",
       "link": "https://themodernproper.com/homemade-chicken-taquitos",
@@ -41,7 +41,7 @@
       "cook": "10 minutes"
     },
     {
-      "id": 1,
+      "id": 6,
       "name": "Creamy Tuscan Chicken",
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191011-creamy-tuscan-chicken-delish-ehg-2521-1571259466.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=768:*",
       "link": "https://www.delish.com/cooking/recipe-ideas/a19636089/creamy-tuscan-chicken-recipe/",
@@ -49,7 +49,7 @@
       "cook": "35 minutes"
     },
     {
-      "id": 0,
+      "id": 7,
       "name": "Juicy Oven-Baked Chicken Breast",
       "image": "https://cafedelites.com/wp-content/uploads/2019/12/Best-Juicy-Baked-Chicken-Breast-IMAGE.jpg",
       "link": "https://cafedelites.com/oven-baked-chicken-breast/",
@@ -58,7 +58,7 @@
       
     },
     {
-      "id": 1,
+      "id": 8,
       "name": "Garlic Butter Chicken",
       "image": "https://www.averiecooks.com/wp-content/uploads/2021/01/garlicbutterchicken-5-480x480.jpg",
       "link": "https://www.averiecooks.com/garlic-butter-chicken/",
@@ -70,7 +70,7 @@
     
 "beef": [
       {
-        "id": 4,
+        "id": 9,
         "name": "Philly Cheesesteak",
         "image": "https://natashaskitchen.com/wp-content/uploads/2019/09/Philly-CheeseSteak-4-728x1092.jpg",
         "link": "https://natashaskitchen.com/philly-cheesesteak/",
@@ -78,7 +78,7 @@
         "cook": "13 minutes"
       },
       {
-        "id": 5,
+        "id": 10,
         "name": "Tostada Carne (Ground Beef)",
         "image": "https://keviniscooking.com/wp-content/uploads/2018/10/Ground-Beef-Tostadas4.jpg",
         "link": "https://keviniscooking.com/ground-beef-tostadas/",
@@ -86,7 +86,7 @@
         "cook": "50 minutes"
       },
       {
-        "id": 0,
+        "id": 11,
         "name": "Pepper Steak Stir Fry",
         "image": "https://www.dinneratthezoo.com/wp-content/uploads/2018/06/pepper-steak-3.jpg",
         "link": "https://www.dinneratthezoo.com/pepper-steak-stir-fry/",
@@ -94,7 +94,7 @@
         "cook": "20 minutes"
       },
       {
-        "id": 64,
+        "id": 12,
         "name": "Ground Beef Stuffed Peppers",
         "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/07/ground-beef-stuffed-peppers-5-683x1024.jpg.webp",
         "link": "https://www.aheadofthyme.com/ground-beef-stuffed-peppers/",
@@ -102,7 +102,7 @@
         "cook": "45 minutes"
       },
       {
-        "id": 32,
+        "id": 13,
         "name": "Slow Cooker Beef Chili",
         "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/02/slow-cooker-beef-chili-3-683x1024.jpg.webp",
         "link": "https://www.aheadofthyme.com/slow-cooker-beef-chili/",
@@ -110,6 +110,7 @@
         "cook": "4 hours"
       },
       {
+        "id": 14,
         "name": "Mongolian Beef",
         "image": "https://thewoksoflife.com/wp-content/uploads/2015/06/mongolian-beef-13.jpg",
         "link": "https://thewoksoflife.com/mongolian-beef-recipe/",
@@ -117,27 +118,27 @@
         "cook": "10 minutes"
       },
       {
-<<<<<<< HEAD
+        "id": 15,
         "name": "Beef and Broccoli",
         "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/beef-and-broccoli-10.jpg",
         "link": "https://thewoksoflife.com/beef-with-broccoli-all-purpose-stir-fry-sauce/",
         "prep": "35 minutes",
         "cook": "15 minutes"
-=======
-        "id": 0,
+      },
+      {
+        "id": 16,
         "name": "One Pot Beef Stroganoff",
         "image": "https://s23209.pcdn.co/wp-content/uploads/2019/04/One-Pot-Beef-StroganoffIMG_9055.jpg",
         "link": "https://damndelicious.net/2019/04/08/one-pot-beef-stroganoff/",
         "prep": "15 minutes",
         "cook": "25 minutes"
->>>>>>> e339d04aa1593a40ff17a0ac7df3c44508a3c577
       }
 
 ],
 
 "pork": [
       {
-        "id": 6,
+        "id": 17,
         "name": "Salt and Pepper Pork Chops",
         "image": "https://omnivorescookbook.com/wp-content/uploads/2020/07/200618_Salt-And-Pepper-Pork-Chop_3.jpg",
         "link": "https://omnivorescookbook.com/salt-pepper-pork-chops/",
@@ -145,7 +146,7 @@
         "cook": "10 minutes"
       },
       {
-        "id": 7,
+        "id": 18,
         "name": "BBQ Baked Pork Chops",
         "image": "https://cafedelites.com/wp-content/uploads/2020/04/Bbq-Baked-Pork-Chops-IMAGE-5.jpg",
         "link": "https://cafedelites.com/bbq-baked-pork-chops/",
@@ -153,7 +154,7 @@
         "cook": "25 minutes"
       },
       {
-        "id": 77,
+        "id": 19,
         "name": "Spicy Dr. Pepper Shredded Pork",
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spicy-dr-pepper-shredded-pork-1591126298.jpg?crop=0.755xw:0.756xh;0.00680xw,0&resize=980:*",
         "link": "https://www.thepioneerwoman.com/food-cooking/recipes/a11385/spicy-dr-pepper-shredded-pork/",
@@ -161,7 +162,7 @@
         "cook": "6 hours"
       },
       {
-        "id": 72,
+        "id": 20,
         "name": "Pork Marsala with Mushrooms",
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pork-marsala-with-mushrooms-1588712621.jpg?crop=0.534xw:1.00xh;0.270xw,0&resize=980:*",
         "link": "https://www.thepioneerwoman.com/food-cooking/recipes/a32381321/pork-marsala-with-mushrooms-recipe/",
@@ -169,7 +170,7 @@
         "cook": "20 minutes"
       },
       {  
-        "id": 1,
+        "id": 21,
         "name": "Char Siu Pork",
         "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
         "link": "https://madewithlau.com/recipes/char-siu-chinese-bbq-pork",
@@ -177,7 +178,7 @@
         "cook": "50 minutes"
       },
       {
-        "id": 8,
+        "id": 22,
         "name": "Garlic Ginger Glazed Sticky Pork",
         "image": "https://www.foodiewithfamily.com/wp-content/uploads/2015/07/Easy-Garlic-Ginger-Sticky-Glazed-Pork-4-600x900.jpg",
         "link": "https://www.foodiewithfamily.com/easy-garlic-ginger-glazed-sticky-pork/",
@@ -185,7 +186,7 @@
         "cook": "10 minutes"
       },
       {
-        "id": 9,
+        "id": 23,
         "name": "Mongolian Pork",
         "image": "https://www.chiselandfork.com/wp-content/uploads/2021/05/mongolian-pork-4.jpg",
         "link": "https://www.chiselandfork.com/mongolian-pork/",
@@ -193,7 +194,7 @@
         "cook": "10 minutes" 
       },
       {
-        "id": 0,
+        "id": 24,
         "name": "Easy Honey Garlic Pork Chops",
         "image": "https://cafedelites.com/wp-content/uploads/2018/05/Easy-Honey-Garlic-Pork-Chops-IMAGE-3-1365x2048.jpg",
         "link": "https://cafedelites.com/easy-honey-garlic-pork-chops/",
@@ -201,7 +202,7 @@
         "cook": "12 minutes"
       },
       {
-        "id": 0,
+        "id": 25,
         "name": "Garlic-Lemon Pork",
         "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd49%2Fflash-in-the-pan-garlic-lemon-pork-med108749-002b%2Fflash-in-the-pan-garlic-lemon-pork-med108749-002b_horiz.jpg%3Fitok%3Dzg5t8yEK",
         "link": "https://www.marthastewart.com/925230/garlic-lemon-pork",
@@ -212,7 +213,7 @@
 
 "seafood": [
       {
-        "id": 8,
+        "id": 26,
         "name": "Cantonese Steamed Fish",
         "image": "https://thewoksoflife.com/wp-content/uploads/2020/12/cantonese-steamed-fish-14-650x432.jpg",
         "link": "https://thewoksoflife.com/cantonese-steamed-fish/",
@@ -220,7 +221,7 @@
         "cook": "15 minutes"
       },
       {
-        "id": 9,
+        "id": 27,
         "name": "Honey Garlic Glazed Salmon",
         "image": "https://www.thechunkychef.com/wp-content/uploads/2020/01/Honey-Garlic-Salmon-fork2-680x819.jpg",
         "link": "https://www.thechunkychef.com/honey-garlic-glazed-salmon/",
@@ -228,7 +229,7 @@
         "cook": "10 minutes"
       },
       {
-        "id": 0,
+        "id": 28,
         "name": "Seafood Boil",
         "image": "https://www.dinneratthezoo.com/wp-content/uploads/2019/05/seafood-boil-5.jpg",
         "link": "https://www.dinneratthezoo.com/seafood-boil-recipe/",
@@ -236,7 +237,7 @@
         "cook": "20 minutes" 
       },
       {
-        "id": 0,
+        "id": 29,
         "name": "Seafood Cioppino",
         "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F658007.jpg&w=699&h=468&c=sc&poi=face&q=85",
         "link": "https://www.allrecipes.com/recipe/16790/seafood-cioppino/",
@@ -244,7 +245,7 @@
         "cook": "2 hours, 15 minutes"
       },
       {
-        "id": 45,
+        "id": 30,
         "name": "Baked Fish with Lemon Garlic Butter",
         "image": "https://www.theendlessmeal.com/wp-content/uploads/2020/12/Baked-Fish-7-scaled.jpg",
         "link": "https://www.theendlessmeal.com/baked-fish/",
@@ -252,7 +253,7 @@
         "cook": "10 minutes"
       },
       {
-        "id": 55,
+        "id": 31,
         "name": "Blackened Catfish with Mango Avocado Salsa",
         "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Blackened-Catfish-with-Mango-Avocado-Salsa_EXPS_CIMZ17_121843_B07_18_5b-9.jpg?fit=700,1024",
         "link": "https://www.tasteofhome.com/recipes/blackened-catfish-with-mango-avocado-salsa/",
@@ -260,7 +261,7 @@
         "cook": "10 minutes"
       },
       {
-        "id": 1,
+        "id": 32,
         "name": "Seafood Spaghetti",
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-seafood-spaghetti-3new-1534500370.jpg?crop=1xw:1xh;center,top&resize=768:*",
         "link": "https://www.delish.com/cooking/recipe-ideas/a22668142/seafood-pasta-recipe/",
@@ -268,6 +269,7 @@
         "cook": "25 minutes" 
       },
       {
+        "id": 33,
         "name": "Shrimp Scampi with Linguini",
         "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/04/1453931744-delish-shrimp-scampi.jpg",
         "link": "https://www.foodnetwork.com/recipes/tyler-florence/shrimp-scampi-with-linguini-recipe-1942429",
@@ -278,7 +280,7 @@
 
 "vege": [
     {
-        "id": 10,
+        "id": 34,
         "name": "Simple Vegetable Stir Fry",
         "image": "https://yupitsvegan.com/wp-content/uploads/2018/06/choy-sum-stir-fry-1.jpg",
         "link": "https://tasteasianfood.com/chinese-vegetables-stir-fry/",
@@ -286,7 +288,7 @@
         "cook": "5 minutes"
       },
       {
-        "id": 11,
+        "id": 35,
         "name": "Tofu Stir-Fry with Peanut Sauce",
         "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2019/tofu-stir-fry-with-broccoli-and-cabbage-12.jpg?w=1200&auto=compress%2Cformat&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599768589&s=c5e06a3d2e81aa2b7f1d04e7acd9a988",
         "link": "https://themodernproper.com/tofu-stir-fry-with-peanut-sauce",
@@ -294,7 +296,7 @@
         "cook": "20 minutes"
       },
       {
-        "id": 0,
+        "id": 36,
         "name": "Fresh and Easy Veggie Spaghetti",
         "image": "https://www.inspiredtaste.net/wp-content/uploads/2019/02/Vegetable-Spaghetti-Recipe-1200.jpg",
         "link": "https://www.inspiredtaste.net/38662/veggie-spaghetti-recipe/",
@@ -302,7 +304,7 @@
         "cook": "25 minutes"
       },
       {
-        "id": 0,
+        "id": 37,
         "name": "Vegitarian Chili",
         "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/1600x1600/square-1520973187-vegetarian-chili-horizontal.jpg?resize=640:*",
         "link": "https://www.delish.com/cooking/recipe-ideas/recipes/a58719/easy-vegetarian-chili-recipe/",
@@ -310,7 +312,7 @@
         "cook": "1 hour"
       },
       {
-        "id": 12,
+        "id": 38,
         "name": "Butternut Squash Stuffed Shells",
         "image": "https://cdn.loveandlemons.com/wp-content/uploads/2015/11/IMG_2015_11_14_06673-2.jpg",
         "link": "https://www.loveandlemons.com/squash-stuffed-shells/",
@@ -318,7 +320,7 @@
         "cook": "35 minutes"
       },
       {
-        "id": 13,
+        "id": 39,
         "name": "Chipotle Cauliflower Nachos",
         "image": "https://cdn.loveandlemons.com/wp-content/uploads/2018/06/IMG_12301.jpg",
         "link": "https://www.loveandlemons.com/chipotle-cauliflower-nachos/",
@@ -326,7 +328,7 @@
         "cook": "8 minutes"
       },
       {
-        "id": 1,
+        "id": 40,
         "name": "Vegetarian Tortilla Soup",
         "image": "https://www.acouplecooks.com/wp-content/uploads/2018/02/Chipotle-Black-Bean-Tortilla-Soup.jpg",
         "link": "https://www.acouplecooks.com/chipotle-black-bean-tortilla-soup-from-pretty-simple-cooking-video/",
@@ -334,6 +336,7 @@
         "cook": "15 minutes" 
       },
       {
+        "id": 41,
         "name": "BBQ Tofu",
         "image": "https://www.acouplecooks.com/wp-content/uploads/2021/06/BBQ-Tofu-003.jpg",
         "link": "https://www.acouplecooks.com/bbq-tofu-recipe/",
