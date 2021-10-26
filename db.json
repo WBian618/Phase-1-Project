@@ -62,6 +62,22 @@
         "link": "https://cafedelites.com/bbq-baked-pork-chops/",
         "prep": "5 minutes",
         "cook": "25 minutes"
+      },
+      {
+        "id": 8,
+        "name": "Garlic Ginger Glazed Sticky Pork",
+        "image": "https://www.foodiewithfamily.com/wp-content/uploads/2015/07/Easy-Garlic-Ginger-Sticky-Glazed-Pork-4-600x900.jpg",
+        "link": "https://www.foodiewithfamily.com/easy-garlic-ginger-glazed-sticky-pork/",
+        "prep": "15 minutes",
+        "cook": "10 minutes"
+      },
+      {
+        "id": 9,
+        "name": "Mongolian Pork",
+        "image": "https://www.chiselandfork.com/wp-content/uploads/2021/05/mongolian-pork-4.jpg",
+        "link": "https://www.chiselandfork.com/mongolian-pork/",
+        "prep": "20 minutes",
+        "cook": "10 minutes" 
       } 
 ],
 
