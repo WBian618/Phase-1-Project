@@ -44,6 +44,7 @@ body {
     overflow-x: auto;
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
+    justify-content: center;
 }
 
 #recipe-display img {
@@ -71,7 +72,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    float: left;
     background-color: rgba(240, 248, 255, 0.555);
     border: solid white;
 }
@@ -125,4 +125,8 @@ h1 {
 .detail-image {
     border: solid white;
     border-width: thick;
+}
+
+#form-container {
+    justify-content: center;
 }
