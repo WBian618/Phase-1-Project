@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             chickImg.src = chickObj.image
             const chickDisplay = document.querySelector('#recipe-display')
             chickDisplay.append(chickImg);
-        
+            chickImg.setAttribute('class',"thumbnail")
         
     chickImg.addEventListener('click', () => {
     const display = document.querySelector('.detail-image')
@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const link = document.querySelector('#recipe-link')
     link.innerText = chickObj.link
     link.href = chickObj.link
+
+    
     })
    
 }))   
@@ -43,6 +45,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             beefImg.src = beefObj.image
             const beefDisplay = document.querySelector('#recipe-display')
             beefDisplay.append(beefImg)
+            beefImg.setAttribute('class',"thumbnail")
 
     beefImg.addEventListener('click', () => {
     const display = document.querySelector('.detail-image')
@@ -74,6 +77,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         const porkDisplay = document.querySelector('#recipe-display')
         porkDisplay.append(porkImg)
+        porkImg.setAttribute('class',"thumbnail")
 
 
 
@@ -109,7 +113,7 @@ seaButt.addEventListener('click', () => {
         
         const seaDisplay = document.querySelector('#recipe-display')
         seaDisplay.append(seaImg)
-        
+        seaImg.setAttribute('class',"thumbnail")
     
 
     
@@ -144,7 +148,7 @@ vegButt.addEventListener('click', () => {
         
         const vegDisplay = document.querySelector('#recipe-display')
         vegDisplay.append(vegImg)
-        
+        vegImg.setAttribute('class',"thumbnail")
     
     
 
