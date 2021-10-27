@@ -94,3 +94,13 @@ form {
 .thumbnail:hover {
     transform: scale(1.1);
 }
+
+h1 {
+    font-family: cursive;
+    font-size: 350%;
+}
+
+.detail-image {
+    border: solid white;
+    border-width: thick;
+}
