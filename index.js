@@ -186,6 +186,6 @@ const newRecipe = document.getElementById('new-recipe')
         const newRecipeItem = document.createElement('img')
         newRecipeItem.src = newRecipeObject.image
         recipeDisplay.append(newRecipeItem)
-
+        document.getElementById('new-recipe').reset()
     })
 })
