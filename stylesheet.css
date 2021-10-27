@@ -59,7 +59,7 @@ body {
 }
 
 .detail-image {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 b {
@@ -68,12 +68,13 @@ b {
 
 form {
     margin: auto;
-    width: 300px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: rgba(240, 248, 255, 0.555);
     border: solid white;
+    
 }
 
 .thumbnail{
@@ -88,7 +89,7 @@ form {
     border: solid white;
     padding: 10px 10px 10px;
     margin-left: 70px;
-    
+
 }
 
 .thumbnail:hover {
@@ -129,4 +130,28 @@ h1 {
 
 #form-container {
     justify-content: center;
-}
+} 
+
+input[type="text"] {
+        width: 80%;
+        margin: auto;
+    }
+
+    #cookingTime {
+        width: 80%;
+        margin: auto;
+    }
+
+    #prepTime {
+        width: 80%;
+        margin: auto;
+    }
+
+    #recipeLink {
+        width: 80%;
+        margin: auto;
+    }
+
+    label {
+        margin: auto;
+    }
