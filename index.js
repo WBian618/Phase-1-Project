@@ -188,7 +188,7 @@ const newRecipe = document.getElementById('new-recipe')
         newRecipeItem.src = newRecipeObject.image
         recipeDisplay.append(newRecipeItem)
         document.getElementById('new-recipe').reset()
-
+newRecipeItem.setAttribute('class',"thumbnail")
         
 })
 

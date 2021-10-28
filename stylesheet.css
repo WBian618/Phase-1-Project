@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Festive&family=Handlee&family=Kaushan+Script&family=Permanent+Marker&display=swap');
 
 * {
     margin: 0;
@@ -121,7 +121,7 @@ button:hover {
 }
 
 h1 {
-    font-family: 'Festive', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 350%;
 }
 
@@ -156,4 +156,28 @@ input[type="text"] {
 
     label {
         margin: auto;
+    }
+
+    #motto {
+        font-family: 'Handlee', cursive;
+        font-size: 150%;
+    }
+
+    b {
+        font-family: 'Handlee', cursive;
+    }
+
+    h4 {
+        margin: auto;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 200%;
+    }
+
+    input[type=submit] {
+        margin: auto;
+        width: 30%;
+        padding: 15px;
+        margin-top: 10px;
+        background-color: rgb(204, 204, 204);
+        opacity: 80%;
     }
