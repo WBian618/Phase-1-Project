@@ -170,11 +170,12 @@ link.href = vegObj.link
 })
 }))
 })
-
+const newRecipeItem = document.createElement('img')
+const newRecipeObject = {}
 const newRecipe = document.getElementById('new-recipe')
     newRecipe.addEventListener('submit', (e) => {
         e.preventDefault()
-        const newRecipeObject = {}
+        
         newRecipeObject.name = document.querySelector('#new-name').value 
         newRecipeObject.image = document.querySelector('#new-image').value
         newRecipeObject.prepTime = document.querySelector('#prepTime').value
@@ -183,9 +184,26 @@ const newRecipe = document.getElementById('new-recipe')
         console.log(newRecipeObject)
 
         const recipeDisplay = document.querySelector('#recipe-display')
-        const newRecipeItem = document.createElement('img')
+        
         newRecipeItem.src = newRecipeObject.image
         recipeDisplay.append(newRecipeItem)
         document.getElementById('new-recipe').reset()
-    })
+
+        
 })
+
+newRecipeItem.addEventListener('click', () => {
+        const display = document.querySelector('.detail-image')
+        display.src = newRecipeObject.image
+
+        const recipeName = document.querySelector("#recipe-name")
+        recipeName.innerText = newRecipeObject.name
+        const prep = document.querySelector('#prep-time')
+        prep.innerText = newRecipeObject.prepTime
+        const cook = document.querySelector('#cook-time')
+        cook.innerText = newRecipeObject.cookingTime
+        const link = document.querySelector('#recipe-link')
+        link.innerText = newRecipeObject.recipeLink
+        link.href = newRecipeObject.recipeLink
+        })
+    })
